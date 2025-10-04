@@ -10,7 +10,7 @@ interface featuresProps {
 const LandingPage = () => {
   const featuresList: featuresProps[] = features;
   return (
-    <div className="h-screen w-screen bg-[url('./nasa3.png')] bg-cover bg-center p-2">
+    <div className="h-screen w-screen bg-[url('/nasa3.png')] bg-cover bg-center p-2">
       <div className="flex flex-col items-center relative">
         <div className="main flex justify-center items-center">
           <p className="text-5xl text-red-500 font-bold">Terra Bloom</p>
