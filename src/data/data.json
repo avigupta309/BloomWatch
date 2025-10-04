@@ -1,0 +1,1356 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "Site": "Chitwan National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 932,
+        "Flower": "Rhododendron",
+        "Description": "Rhododendrons bloom in Chitwan, Nepal.",
+        "Latitude": 27.534,
+        "Longitude": 84.423
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [84.421, 27.532],
+              [84.425, 27.536],
+              [84.427, 27.534],
+              [84.421, 27.532]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "Site": "Sagarmatha National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 1148,
+        "Flower": "Primula",
+        "Description": "High-altitude wildflowers in Everest region, Nepal.",
+        "Latitude": 27.9881,
+        "Longitude": 86.925
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [86.924, 27.987],
+              [86.926, 27.989],
+              [86.927, 27.988],
+              [86.924, 27.987]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "Site": "Valley of Flowers",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 87,
+        "Flower": "Himalayan Balsam",
+        "Description": "UNESCO site with alpine flowers in India.",
+        "Latitude": 30.7333,
+        "Longitude": 79.6
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [79.599, 30.732],
+              [79.601, 30.734],
+              [79.602, 30.733],
+              [79.599, 30.732]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "Site": "Keoladeo National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 29,
+        "Flower": "Water Lily",
+        "Description": "Water lilies and wildflowers in Bharatpur, India.",
+        "Latitude": 27.156,
+        "Longitude": 77.502
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [77.501, 27.155],
+              [77.503, 27.157],
+              [77.504, 27.156],
+              [77.501, 27.155]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "Site": "Margalla Hills National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 17,
+        "Flower": "Red Lily",
+        "Description": "Wildflowers bloom in Islamabad's Margalla Hills, Pakistan.",
+        "Latitude": 33.7289,
+        "Longitude": 73.0531
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [73.052, 33.728],
+              [73.054, 33.73],
+              [73.055, 33.729],
+              [73.052, 33.728]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "Site": "Gir National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 1412,
+        "Flower": "Indian Rose",
+        "Description": "Wildflowers coexist with wildlife in Gujarat, India.",
+        "Latitude": 21.124,
+        "Longitude": 70.8149
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [70.813, 21.123],
+              [70.816, 21.125],
+              [70.815, 21.124],
+              [70.813, 21.123]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "Site": "Jim Corbett National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 520,
+        "Flower": "Marigold",
+        "Description": "Wildflower species scattered in Corbett National Park, India.",
+        "Latitude": 29.53,
+        "Longitude": 78.7747
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [78.773, 29.529],
+              [78.775, 29.531],
+              [78.776, 29.53],
+              [78.773, 29.529]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "Site": "Lumbini Garden",
+        "Type": "Plantation",
+        "Season": "All Year",
+        "Area": 5,
+        "Flower": "Lotus",
+        "Description": "Sacred gardens with flowering lotus in Nepal.",
+        "Latitude": 27.4844,
+        "Longitude": 83.2763
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [83.275, 27.483],
+              [83.277, 27.485],
+              [83.278, 27.484],
+              [83.275, 27.483]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "Site": "Sunderbans Mangrove",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 10200,
+        "Flower": "Mangrove Flowers",
+        "Description": "Flowering mangrove plants along the Sunderbans delta, India.",
+        "Latitude": 21.9497,
+        "Longitude": 88.908
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [88.907, 21.948],
+              [88.909, 21.95],
+              [88.91, 21.949],
+              [88.907, 21.948]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "Site": "Bhutan Dochula Pass",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 10,
+        "Flower": "Rhododendron",
+        "Description": "Alpine rhododendrons bloom across mountain slopes in Bhutan.",
+        "Latitude": 27.45,
+        "Longitude": 89.8833
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [89.882, 27.449],
+              [89.884, 27.451],
+              [89.885, 27.45],
+              [89.882, 27.449]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "Site": "Hallerbos Forest",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 550,
+        "Flower": "Bluebell",
+        "Description": "Forest near Brussels, Belgium, famous for bluebell carpets.",
+        "Latitude": 50.8,
+        "Longitude": 4.35
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.348, 50.799],
+              [4.352, 50.801],
+              [4.351, 50.802],
+              [4.348, 50.799]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "Site": "Keukenhof Gardens",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 32,
+        "Flower": "Tulip",
+        "Description": "Famous tulip gardens in Netherlands, colorful displays every spring.",
+        "Latitude": 52.2715,
+        "Longitude": 4.5467
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.545, 52.27],
+              [4.547, 52.272],
+              [4.549, 52.271],
+              [4.545, 52.27]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "Site": "Hitachi Seaside Park",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 350,
+        "Flower": "Nemophila",
+        "Description": "Blue Nemophila blooms in Japan.",
+        "Latitude": 36.4083,
+        "Longitude": 140.583
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [140.582, 36.407],
+              [140.584, 36.409],
+              [140.585, 36.408],
+              [140.582, 36.407]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "Site": "Sagano Bamboo Forest",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 16,
+        "Flower": "Bamboo Blossoms",
+        "Description": "Scenic bamboo forest in Kyoto, Japan with occasional blossoms.",
+        "Latitude": 35.0094,
+        "Longitude": 135.6676
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [135.666, 35.008],
+              [135.668, 35.01],
+              [135.669, 35.009],
+              [135.666, 35.008]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "Site": "Mount Etna Wildflowers",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 150,
+        "Flower": "Cyclamen",
+        "Description": "Volcanic soil supports vibrant spring flowers in Sicily, Italy.",
+        "Latitude": 37.751,
+        "Longitude": 14.9934
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [14.992, 37.75],
+              [14.994, 37.752],
+              [14.995, 37.751],
+              [14.992, 37.75]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "Site": "Montreux Flower Festival",
+        "Type": "Plantation",
+        "Season": "Summer",
+        "Area": 10,
+        "Flower": "Roses",
+        "Description": "Annual flower festival with rose displays in Switzerland.",
+        "Latitude": 46.4316,
+        "Longitude": 6.9103
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [6.909, 46.43],
+              [6.911, 46.432],
+              [6.912, 46.431],
+              [6.909, 46.43]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "Site": "Valensole Plateau",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 800,
+        "Flower": "Lavender",
+        "Description": "Lavender fields create a purple carpet across the plateau in France.",
+        "Latitude": 43.902,
+        "Longitude": 5.888
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5.887, 43.901],
+              [5.889, 43.903],
+              [5.89, 43.902],
+              [5.887, 43.901]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 18,
+        "Site": "Giza Botanical Garden",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 40,
+        "Flower": "Lotus",
+        "Description": "Botanical garden near pyramids showcasing lotus in Egypt.",
+        "Latitude": 29.9773,
+        "Longitude": 31.1325
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [31.131, 29.976],
+              [31.134, 29.976],
+              [31.134, 29.978],
+              [31.131, 29.978],
+              [31.131, 29.976]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 1,
+        "Site": "Chitwan National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 932,
+        "Flower": "Rhododendron",
+        "Description": "Rhododendrons bloom in Chitwan, Nepal.",
+        "Latitude": 27.534,
+        "Longitude": 84.423
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [84.421, 27.532],
+              [84.425, 27.536],
+              [84.427, 27.534],
+              [84.421, 27.532]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 2,
+        "Site": "Sagarmatha National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 1148,
+        "Flower": "Primula",
+        "Description": "High-altitude wildflowers in Everest region, Nepal.",
+        "Latitude": 27.9881,
+        "Longitude": 86.925
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [86.924, 27.987],
+              [86.926, 27.989],
+              [86.927, 27.988],
+              [86.924, 27.987]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 3,
+        "Site": "Valley of Flowers",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 87,
+        "Flower": "Himalayan Balsam",
+        "Description": "UNESCO site with alpine flowers in India.",
+        "Latitude": 30.7333,
+        "Longitude": 79.6
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [79.599, 30.732],
+              [79.601, 30.734],
+              [79.602, 30.733],
+              [79.599, 30.732]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 4,
+        "Site": "Keoladeo National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 29,
+        "Flower": "Water Lily",
+        "Description": "Water lilies and wildflowers in Bharatpur, India.",
+        "Latitude": 27.156,
+        "Longitude": 77.502
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [77.501, 27.155],
+              [77.503, 27.157],
+              [77.504, 27.156],
+              [77.501, 27.155]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 5,
+        "Site": "Margalla Hills National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 17,
+        "Flower": "Red Lily",
+        "Description": "Wildflowers bloom in Islamabad's Margalla Hills, Pakistan.",
+        "Latitude": 33.7289,
+        "Longitude": 73.0531
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [73.052, 33.728],
+              [73.054, 33.73],
+              [73.055, 33.729],
+              [73.052, 33.728]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 6,
+        "Site": "Gir National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 1412,
+        "Flower": "Indian Rose",
+        "Description": "Wildflowers coexist with wildlife in Gujarat, India.",
+        "Latitude": 21.124,
+        "Longitude": 70.8149
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [70.813, 21.123],
+              [70.816, 21.125],
+              [70.815, 21.124],
+              [70.813, 21.123]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 7,
+        "Site": "Jim Corbett National Park",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 520,
+        "Flower": "Marigold",
+        "Description": "Wildflower species scattered in Corbett National Park, India.",
+        "Latitude": 29.53,
+        "Longitude": 78.7747
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [78.773, 29.529],
+              [78.775, 29.531],
+              [78.776, 29.53],
+              [78.773, 29.529]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 8,
+        "Site": "Lumbini Garden",
+        "Type": "Plantation",
+        "Season": "All Year",
+        "Area": 5,
+        "Flower": "Lotus",
+        "Description": "Sacred gardens with flowering lotus in Nepal.",
+        "Latitude": 27.4844,
+        "Longitude": 83.2763
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [83.275, 27.483],
+              [83.277, 27.485],
+              [83.278, 27.484],
+              [83.275, 27.483]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 9,
+        "Site": "Sunderbans Mangrove",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 10200,
+        "Flower": "Mangrove Flowers",
+        "Description": "Flowering mangrove plants along the Sunderbans delta, India.",
+        "Latitude": 21.9497,
+        "Longitude": 88.908
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [88.907, 21.948],
+              [88.909, 21.95],
+              [88.91, 21.949],
+              [88.907, 21.948]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 10,
+        "Site": "Bhutan Dochula Pass",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 10,
+        "Flower": "Rhododendron",
+        "Description": "Alpine rhododendrons bloom across mountain slopes in Bhutan.",
+        "Latitude": 27.45,
+        "Longitude": 89.8833
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [89.882, 27.449],
+              [89.884, 27.451],
+              [89.885, 27.45],
+              [89.882, 27.449]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 11,
+        "Site": "Hallerbos Forest",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 550,
+        "Flower": "Bluebell",
+        "Description": "Forest near Brussels, Belgium, famous for bluebell carpets.",
+        "Latitude": 50.8,
+        "Longitude": 4.35
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.348, 50.799],
+              [4.352, 50.801],
+              [4.351, 50.802],
+              [4.348, 50.799]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 12,
+        "Site": "Keukenhof Gardens",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 32,
+        "Flower": "Tulip",
+        "Description": "Famous tulip gardens in Netherlands, colorful displays every spring.",
+        "Latitude": 52.2715,
+        "Longitude": 4.5467
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.545, 52.27],
+              [4.547, 52.272],
+              [4.549, 52.271],
+              [4.545, 52.27]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 13,
+        "Site": "Hitachi Seaside Park",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 350,
+        "Flower": "Nemophila",
+        "Description": "Blue Nemophila blooms in Japan.",
+        "Latitude": 36.4083,
+        "Longitude": 140.583
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [140.582, 36.407],
+              [140.584, 36.409],
+              [140.585, 36.408],
+              [140.582, 36.407]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 14,
+        "Site": "Sagano Bamboo Forest",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 16,
+        "Flower": "Bamboo Blossoms",
+        "Description": "Scenic bamboo forest in Kyoto, Japan with occasional blossoms.",
+        "Latitude": 35.0094,
+        "Longitude": 135.6676
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [135.666, 35.008],
+              [135.668, 35.01],
+              [135.669, 35.009],
+              [135.666, 35.008]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 15,
+        "Site": "Mount Etna Wildflowers",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 150,
+        "Flower": "Cyclamen",
+        "Description": "Volcanic soil supports vibrant spring flowers in Sicily, Italy.",
+        "Latitude": 37.751,
+        "Longitude": 14.9934
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [14.992, 37.75],
+              [14.994, 37.752],
+              [14.995, 37.751],
+              [14.992, 37.75]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 16,
+        "Site": "Montreux Flower Festival",
+        "Type": "Plantation",
+        "Season": "Summer",
+        "Area": 10,
+        "Flower": "Roses",
+        "Description": "Annual flower festival with rose displays in Switzerland.",
+        "Latitude": 46.4316,
+        "Longitude": 6.9103
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [6.909, 46.43],
+              [6.911, 46.432],
+              [6.912, 46.431],
+              [6.909, 46.43]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 17,
+        "Site": "Valensole Plateau",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 800,
+        "Flower": "Lavender",
+        "Description": "Lavender fields create a purple carpet across the plateau in France.",
+        "Latitude": 43.902,
+        "Longitude": 5.888
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5.887, 43.901],
+              [5.889, 43.903],
+              [5.89, 43.902],
+              [5.887, 43.901]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 31,
+        "Site": "Valensole Plateau",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 800,
+        "Flower": "Lavender",
+        "Description": "Lavender fields create a purple carpet across the plateau in France.",
+        "Latitude": 43.902,
+        "Longitude": 5.888
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5.887, 43.901],
+              [5.889, 43.903],
+              [5.89, 43.902],
+              [5.887, 43.901]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 32,
+        "Site": "Tuscany Countryside",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 600,
+        "Flower": "Sunflower",
+        "Description": "Rolling hills of Tuscany covered with sunflowers in spring.",
+        "Latitude": 43.7711,
+        "Longitude": 11.2486
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [11.247, 43.77],
+              [11.25, 43.772],
+              [11.251, 43.771],
+              [11.247, 43.77]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 33,
+        "Site": "Keukenhof Gardens",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 32,
+        "Flower": "Tulip",
+        "Description": "World famous tulip gardens in the Netherlands, vibrant in spring.",
+        "Latitude": 52.2711,
+        "Longitude": 4.5466
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.545, 52.27],
+              [4.548, 52.272],
+              [4.547, 52.271],
+              [4.545, 52.27]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 34,
+        "Site": "Butchart Gardens",
+        "Type": "Plantation",
+        "Season": "Summer",
+        "Area": 55,
+        "Flower": "Roses",
+        "Description": "Iconic rose gardens in Canada, colorful during summer.",
+        "Latitude": 48.5659,
+        "Longitude": -123.4737
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-123.474, 48.565],
+              [-123.472, 48.567],
+              [-123.471, 48.566],
+              [-123.474, 48.565]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 35,
+        "Site": "Cherry Blossom Park, Washington D.C.",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 60,
+        "Flower": "Cherry Blossom",
+        "Description": "Famous cherry blossom festival in USA's capital during spring.",
+        "Latitude": 38.8899,
+        "Longitude": -77.0091
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-77.01, -38.889],
+              [-77.008, -38.888],
+              [-77.009, -38.89],
+              [-77.01, -38.889]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 36,
+        "Site": "Antelope Valley Poppy Reserve",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 300,
+        "Flower": "California Poppy",
+        "Description": "Massive fields of California poppies in the USA, spring bloom.",
+        "Latitude": 34.6919,
+        "Longitude": -118.3561
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-118.357, 34.69],
+              [-118.355, 34.693],
+              [-118.356, 34.692],
+              [-118.357, 34.69]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 37,
+        "Site": "Holland Tulip Fields",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 500,
+        "Flower": "Tulip",
+        "Description": "Endless tulip fields in the Netherlands, vibrant during spring.",
+        "Latitude": 52.292,
+        "Longitude": 4.8166
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.815, 52.291],
+              [4.818, 52.293],
+              [4.817, 52.292],
+              [4.815, 52.291]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 38,
+        "Site": "Keukenhof Flower Park",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 32,
+        "Flower": "Tulip",
+        "Description": "World famous tulip gardens in the Netherlands.",
+        "Latitude": 52.2711,
+        "Longitude": 4.5466
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [4.545, 52.27],
+              [4.548, 52.272],
+              [4.547, 52.271],
+              [4.545, 52.27]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 39,
+        "Site": "Lavender Fields Provence",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 1000,
+        "Flower": "Lavender",
+        "Description": "Vast lavender fields in Provence, France, summer bloom.",
+        "Latitude": 44.0186,
+        "Longitude": 5.74
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [5.739, 44.017],
+              [5.741, 44.019],
+              [5.742, 44.018],
+              [5.739, 44.017]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 40,
+        "Site": "Montalcino Sunflowers",
+        "Type": "Plantation",
+        "Season": "Summer",
+        "Area": 400,
+        "Flower": "Sunflower",
+        "Description": "Sunflower fields surrounding Montalcino hills in Italy.",
+        "Latitude": 43.0616,
+        "Longitude": 11.4892
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [11.488, 43.06],
+              [11.49, 43.062],
+              [11.491, 43.061],
+              [11.488, 43.06]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 41,
+        "Site": "Bluebonnet Fields, Texas",
+        "Type": "Wild",
+        "Season": "Spring",
+        "Area": 150,
+        "Flower": "Bluebonnet",
+        "Description": "Iconic bluebonnet fields in Texas, USA.",
+        "Latitude": 30.2672,
+        "Longitude": -97.7431
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-97.744, 30.266],
+              [-97.742, 30.268],
+              [-97.743, 30.267],
+              [-97.744, 30.266]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 42,
+        "Site": "Niagara Parks Floral Showhouse",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 25,
+        "Flower": "Tulip",
+        "Description": "Tulips and seasonal flowers in Niagara, Canada.",
+        "Latitude": 43.0896,
+        "Longitude": -79.0849
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-79.085, 43.089],
+              [-79.084, 43.091],
+              [-79.083, 43.09],
+              [-79.085, 43.089]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 43,
+        "Site": "Boston Public Garden",
+        "Type": "Plantation",
+        "Season": "Spring",
+        "Area": 24,
+        "Flower": "Tulip",
+        "Description": "Historic tulip beds and seasonal flowers in Boston, USA.",
+        "Latitude": 42.353,
+        "Longitude": -71.0656
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-71.066, 42.352],
+              [-71.064, 42.354],
+              [-71.065, 42.353],
+              [-71.066, 42.352]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 44,
+        "Site": "Iowa Wildflower Reserve",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 120,
+        "Flower": "Prairie Clover",
+        "Description": "Vast prairie with native wildflowers in Iowa, USA.",
+        "Latitude": 41.878,
+        "Longitude": -93.0977
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-93.098, 41.877],
+              [-93.096, 41.879],
+              [-93.097, 41.878],
+              [-93.098, 41.877]
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": 45,
+        "Site": "Mackenzie River Valley",
+        "Type": "Wild",
+        "Season": "Summer",
+        "Area": 600,
+        "Flower": "Fireweed",
+        "Description": "Beautiful fireweed blooms along Mackenzie River in Canada.",
+        "Latitude": 61.214,
+        "Longitude": -121.337
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [
+          [
+            [
+              [-121.338, 61.213],
+              [-121.336, 61.215],
+              [-121.337, 61.214],
+              [-121.338, 61.213]
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

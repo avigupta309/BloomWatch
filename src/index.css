@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* @plugin "daisyui"; */
+
+@tailwind utilities;
+.leaflet-container {
+  /* height: 70vh; */
+  /* width: 50%; */
+  z-index: 0;
+}
+
+body {
+  color: white;
+}
+div::-webkit-scrollbar {
+  display: none;
+}
