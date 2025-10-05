@@ -8,6 +8,10 @@ import {
   useMap,
 } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
+import L from "leaflet";
+// import icon from "leaflet/dist/images/marker-icon.png";
+// import iconRetina from "leaflet/dist/images/marker-icon-2x.png";
+// import shadow from "leaflet/dist/images/marker-shadow.png";
 import data from "../data/data.json";
 import SearchBox from "../components/SearchBox";
 import { useEffect, useState } from "react";
@@ -31,6 +35,13 @@ const getCentroid = (coords: number[][][][]): [number, number] => {
   return [latSum / count, lngSum / count];
 };
 
+delete (L.Icon.Default.prototype as any)._getIconUrl;
+
+L.Icon.Default.mergeOptions({
+  iconRetinaUrl: "/leaflet/marker-icon-2x.png",
+  iconUrl: "/leaflet/marker-icon.png",
+  shadowUrl: "/leaflet/marker-shadow.png",
+});
 const Map = () => {
   const [userLocation, setUserLocation] = useState<[number, number] | null>(
     null
@@ -44,12 +55,11 @@ const Map = () => {
       {/* Pass function to get user's searched location */}
       <SearchBox onLocationSelect={weatherDetails} />
       <LocationInfo />
-
       <MapContainer
         center={userLocation ? userLocation : [34.5, -118.5]}
         zoom={5}
         scrollWheelZoom={true}
-        className="h-screen w-screen"
+        className="h-screen w-screen z-10"
       >
         {userLocation && <RecenterMap center={userLocation} />}
         <TileLayer
@@ -97,8 +107,9 @@ const Map = () => {
         {/* Marker for user-selected location */}
         {userLocation && (
           <Marker position={userLocation}>
-            <Popup>Your searched location
-              <Wikepedia/>
+            <Popup>
+              Your searched location
+              <Wikepedia />
             </Popup>
           </Marker>
         )}

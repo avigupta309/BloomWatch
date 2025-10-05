@@ -23,7 +23,7 @@ const SearchBox = ({ onLocationSelect }: searchBoxProps) => {
     }
   }
   return (
-    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-10 flex bg-white rounded shadow p-2">
+    <div className="absolute top-4 left-1/2 transform -translate-x-1/2 z-20 flex bg-white rounded shadow p-2">
       <input
         className="border px-2 py-1 rounded-l text-gray-600 outline-none"
         type="search"

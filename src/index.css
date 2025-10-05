@@ -1,13 +1,6 @@
 @import "tailwindcss";
-
-/* @plugin "daisyui"; */
-
+@plugin "daisyui";
 @tailwind utilities;
-.leaflet-container {
-  /* height: 70vh; */
-  /* width: 50%; */
-  z-index: 0;
-}
 
 body {
   color: white;

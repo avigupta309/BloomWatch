@@ -3,9 +3,8 @@ import LandingPage from "./pages/LandingPage";
 import { Routes, Route } from "react-router-dom";
 import Map from "./pages/Map";
 import SecondPage from "./pages/SecondPage";
-
-
 const App = () => {
+  
   return (
     <div className=" bg-gray-200 h-screen ">
       <Header />
@@ -13,11 +12,9 @@ const App = () => {
         <Route path="/" element={<LandingPage />}></Route>
         <Route path="/map" element={<Map />}></Route>
       </Routes>
-      <SecondPage/>
+      <SecondPage />
     </div>
   );
 };
 
 export default App;
-
-
