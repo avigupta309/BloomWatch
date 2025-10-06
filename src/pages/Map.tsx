@@ -17,6 +17,7 @@ import LocationInfo from "../components/LocationInfo";
 import Wikepedia from "../components/Wikepedia";
 import type { weatherProps } from "../data/types";
 
+// Helper: calculate centroid of a MultiPolygon
 const getCentroid = (coords: number[][][][]): [number, number] => {
   let latSum = 0,
     lngSum = 0,
@@ -33,6 +34,7 @@ const getCentroid = (coords: number[][][][]): [number, number] => {
   return [latSum / count, lngSum / count];
 };
 
+// Configure Leaflet marker icons
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: "/leaflet/marker-icon-2x.png",
@@ -50,13 +52,15 @@ const Map = () => {
   }
 
   return (
-    <div className="flex flex-col md:flex-row h-screen bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 overflow-hidden p-10">
+    <div className="flex flex-col min-h-screen bg-gradient-to-r from-pink-100 via-purple-100 to-blue-100 overflow-hidden p-6">
+      {/* Map Section (full width, fixed height) */}
       <div
-        className="md:w-1/2 w-full border-4 border-pink-400 rounded-2xl overflow-hidden shadow-lg 
+        className="w-full h-[70vh] border-4 border-pink-400 rounded-2xl overflow-hidden shadow-lg 
                    relative animate-fadeInLeft"
       >
         <SearchBox onLocationSelect={weatherDetails} />
         <LocationInfo />
+
         <MapContainer
           center={userLocation ? userLocation : [34.5, -118.5]}
           zoom={5}
@@ -70,6 +74,7 @@ const Map = () => {
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
 
+          {/* Circle markers for flowers */}
           {data.features.map((feature: any, index: number) => {
             if (feature.geometry.type === "MultiPolygon") {
               const centroid = getCentroid(feature.geometry.coordinates);
@@ -106,6 +111,7 @@ const Map = () => {
             return null;
           })}
 
+          {/* Marker for searched location */}
           {userLocation && (
             <Marker position={userLocation}>
               <Popup>
@@ -117,15 +123,16 @@ const Map = () => {
         </MapContainer>
       </div>
 
+      {/* Text Section (under the map) */}
       <div
-        className="md:w-1/2 w-full flex flex-col items-center justify-center 
-                   text-center p-10 animate-fadeInRight"
+        className="w-full flex flex-col items-center justify-center 
+                   text-center py-10 animate-fadeInRight"
       >
         <h1 className="text-5xl font-extrabold text-pink-600 drop-shadow-lg mb-4 animate-bounceSlow">
           🌸 Terra Bloom
         </h1>
 
-        <p className="text-lg text-gray-700 max-w-md leading-relaxed">
+        <p className="text-lg text-gray-700 max-w-2xl leading-relaxed">
           Discover the hidden{" "}
           <span className="text-pink-600 font-semibold">beauty of nature</span>{" "}
           across the globe. Explore{" "}
@@ -143,6 +150,7 @@ const Map = () => {
   );
 };
 
+// Helper component: re-center map
 function RecenterMap({ center }: { center: [number, number] }) {
   const map = useMap();
   useEffect(() => {
