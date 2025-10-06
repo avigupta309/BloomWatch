@@ -9,7 +9,7 @@ const LocationInfo = () => {
   if (!weatherData) return null;
   return (
     <div className="relative z-20 ">
-      <div className="bg-white p-1 text-gray-600 rounded-lg absolute top-20 left-4">
+      <div className=" p-1 text-black rounded-lg absolute top-20 left- bg-yellow-400">
         <div className="p-2 flex flex-col gap-2 top-40 left-20">
           <div className="flex p-2 gap-2">
             <Info

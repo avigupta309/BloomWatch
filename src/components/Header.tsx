@@ -21,11 +21,13 @@ const Header = () => {
         </center>
 
         <div className="flex space-x-4 text-xl">
+          <Link to={"/map"}>
+            <button className="btn btn-active btn-primary p-2 bg-yellow-300 w-36 text-black  text- ">
+              View Map{" "}
+            </button>
+          </Link>
           <Link to="/">
             <p>Home</p>
-          </Link>
-          <Link to={'/map'}>
-          <p>Map</p>
           </Link>
         </div>
       </nav>

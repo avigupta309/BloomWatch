@@ -1,14 +1,13 @@
-import { Flower } from "lucide-react";
 import mockData from "../data/data.json";
 import type React from "react";
 const FeaturesCard: React.FC = () => {
   return (
-    <div className="w-auto text-gray-700 grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-5 ">
+    <div className="w-auto text-gray-700 bg-[url('/lotus.gif')] grid grid-cols-1 sm:grid-cols-3 md:grid-cols-4 gap-5 ">
       {mockData.features.map((val, id) => {
         return (
           <div key={id} className="card p-2 rounded-lg bg-white shadow-2xs">
             <div className="flex items-center justify-between">
-              <Flower />
+             🌸
               <p className="text-xl font-medium text-pink-600">
                 {val.properties.Flower}
               </p>

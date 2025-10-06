@@ -27,14 +27,14 @@ const SearchBox = ({ onLocationSelect }: searchBoxProps) => {
       <input
         className="border px-2 py-1 rounded-l text-gray-600 outline-none"
         type="search"
-        placeholder="Enter location"
+        placeholder="Enter Place or City Name"
         value={cityName}
         onChange={(e) => setCityName(e.target.value)}
         onKeyDown={(e) => e.key === "Enter" && handleSearch()}
       />
       <button
         onClick={handleSearch}
-        className="bg-blue-500 text-white px-3 flex items-center cursor-pointer"
+        className="bg-blue-500 text-white px-3 flex items-center cursor-pointer hover:bg-green-400 rounded-r hover:text-black"
       >
         <Search size={20} />
       </button>

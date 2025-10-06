@@ -4,7 +4,6 @@ import { Routes, Route } from "react-router-dom";
 import Map from "./pages/Map";
 import SecondPage from "./pages/SecondPage";
 const App = () => {
-  
   return (
     <div className=" bg-gray-200 h-screen ">
       <Header />
